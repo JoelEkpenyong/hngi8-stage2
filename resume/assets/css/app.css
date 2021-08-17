@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+.bg-dark-100 {
+  background-color: #2d2e2e;
+}
+
+.bg-dark-200 {
+  background-color: #2b2c2c;
+}
+
+@media screen and (min-width: 992) {
+  .bg-dark-200 {
+    background-color: #292a2a;
+  }
+}
+
+.bg-dark-300 {
+  background-color: #292a2a;
+}
+
+.text-grey-100 {
+  color: #979899;
+}
+
+.text-grey-200 {
+  color: #a4a5a6;
+}
+
+.text-primary-100 {
+  color: #e0a80d;
+}
+
+.hero-header {
+  font-size: 2rem;
+}
+
+@media screen and (min-width: 576px) {
+  .hero-header {
+    font-size: 3.5rem;
+  }
+}
+
+.hero-subheader {
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 576px) {
+  .hero-subheader {
+    font-size: 1.5rem;
+  }
+}
+
+.fs-7 {
+  font-size: 0.8rem;
+}
+
+.fs-8 {
+  font-size: 0.7rem;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  transition: all 0.3s ease;
+  background-color: #2d2e2e;
+}
+
+a:hover {
+  color: #a4a5a6;
+}
+
+@media screen and (min-width: 992px) {
+  .hero {
+    height: 100vh;
+  }
+}
+
+.hero hr {
+  background-color: #a4a5a6;
+}
+
+.hero .profile-img {
+  width: 10rem;
+  height: 10rem;
+  background: #000000;
+  /* fallback for old browsers */
+  background: linear-gradient(to left, #434343, #000000);
+}
+
+@media screen and (min-width: 576px) {
+  .hero .profile-img {
+    width: 14rem;
+    height: 14rem;
+  }
+}
+
+.hero .profile-img img {
+  object-fit: cover;
+  object-position: center;
+}
+
+.hero .social-icons {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #3f4040;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #a4a5a6;
+}
+
+.hero .social-icons:hover {
+  color: #e0a80d;
+}
+
+@media screen and (min-width: 576px) {
+  .hero .social-icons {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.expertise ol {
+  counter-reset: section;
+  list-style: none;
+}
+
+.expertise ol li {
+  counter-increment: step-counter;
+  position: relative;
+}
+
+.expertise ol li:before {
+  color: #e0a80d;
+  content: "0" counter(step-counter);
+  font-size: 1rem;
+  padding-right: 0.5rem;
+  font-weight: bold;
+  position: absolute;
+  left: -1.5rem;
+  top: 0.25rem;
+}
+
+.experience .summary > p {
+  margin-bottom: 0.5rem;
+}
+
+footer .image-wrapper {
+  height: 2rem;
+  width: 6rem;
+  display: block;
+}
+
+footer .image-wrapper img {
+  object-fit: contain;
+}
