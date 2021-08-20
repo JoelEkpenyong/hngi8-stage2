@@ -18,3 +18,9 @@ heroTimeline
     },
     '-=600'
   );
+
+AOS.init({
+  duration: 1000,
+  anchorPlacement: 'center-bottom',
+  easing: 'easeInOutSine',
+});

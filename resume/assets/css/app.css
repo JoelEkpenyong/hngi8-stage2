@@ -67,9 +67,31 @@ a:hover {
   color: #a4a5a6;
 }
 
+@media screen and (max-width: 992px) {
+  .desc-header {
+    background-color: #292a2a !important;
+    border-width: 1px 0;
+    border-color: #9798996b;
+    border-style: solid;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .desc-content {
+    background-color: #2d2e2e !important;
+  }
+}
+
+.hero .bg-dark-200 {
+  background-color: #2d2e2e;
+}
+
 @media screen and (min-width: 992px) {
   .hero {
     height: 100vh;
+  }
+  .hero .bg-dark-200 {
+    background-color: #2b2c2c;
   }
 }
 
